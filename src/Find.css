@@ -1,0 +1,41 @@
+.center,
+.List,
+.flex,
+.container,
+.noText
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.List{
+    width: 350px;
+    background: darkblue;
+    color: white;
+    padding: 0px 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+.flex{
+    display: flex;
+    justify-content: end;
+    margin: 0;
+}
+.container{
+    width: 350px;
+    margin: 0 auto 50px auto;
+}
+.box{
+    height: 55px;
+}
+
+.noText{
+    text-decoration: none;
+}

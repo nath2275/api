@@ -1,0 +1,4 @@
+
+//backend
+npm init -y
+npm i express mongoose cors nodemon body-parser

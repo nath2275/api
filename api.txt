@@ -1,0 +1,5 @@
+
+// frontend
+npm i axios
+
+npm i react-router-dom styled-components@5.3.10 axios
